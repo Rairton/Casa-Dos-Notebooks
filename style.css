@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('src/img/fundo-geral.jpg');
+    background-size: cover;
+    align-items: center;
+    justify-items: center;
+    color: #333;
+
+
+}
+
+.header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    margin: 10px;
+}
+
+.body {
+    margin: 20px;
+}
+
+.Button {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    color: #ffffff;
+    text-align: bottom;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    border: 1px solid black;
+}
+
+.Button h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    opacity: 0.9;
+    margin: 25px;
+}
+
+#ButtonAcao {
+
+    background-image: url('src/img/Ação-pc-gamer.jpg');
+    background-size: cover;
+    height: 150px;
+}
+#ButtonWhatsapp {
+    display: flex;
+}
+#ButtonWhatsapp img, #ButtonLoc img  {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    filter: invert(1);
+}
+#ButtonLoc {
+    height: 150px;
+    background-image: url('src/img/localização.jpg');
+}
+#ButtonAvaliacao img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 1024px) {
+    .body {
+        width: 367px;
+    }
+}
