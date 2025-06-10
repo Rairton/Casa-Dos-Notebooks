@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('src/img/fundo-geral.jpg');
-    background-size: cover;
+    background-image: url('src/img/fundo.png');
+    background-size: fixed;
     align-items: center;
     justify-items: center;
     color: #333;
@@ -16,18 +16,19 @@ body {
 }
 
 .header {
+    width: 100%;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-.header img {
+/*.header img {
     width: 100px;
     height: 100px;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgb(255, 0, 0);
     margin: 10px;
-}
+}*/
 
 .body {
     margin: 20px;
